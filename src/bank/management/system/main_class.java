@@ -1,6 +1,5 @@
 package bank.management.system;
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
