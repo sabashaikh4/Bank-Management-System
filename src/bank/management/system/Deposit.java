@@ -67,7 +67,7 @@ public class Deposit extends JFrame implements ActionListener {
                 if (textField.getText().equals("")){
                     JOptionPane.showMessageDialog(null,"Please enter the Amount you want to Deposit");
                 }else {
-                    Connn c = new Connn();
+                    Connectionn c = new Connectionn();
                     c.statement.executeUpdate("insert into bank values('"+pin+"', '"+date+"','Deposit', '"+amount+"')");
                     JOptionPane.showMessageDialog(null,"Rs. "+amount+" Deposited Successfully");
                     setVisible(false);

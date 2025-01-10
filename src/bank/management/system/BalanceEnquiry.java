@@ -43,7 +43,7 @@ import java.sql.ResultSet;
 
             int balance =0;
             try{
-                Connn c = new Connn();
+                Connectionn c = new Connectionn();
                 ResultSet resultSet = c.statement.executeQuery("Select * from bank where pin = '"+pin+"'");
                 while (resultSet.next()){
                     if (resultSet.getString("type").equals("Deposit")){
